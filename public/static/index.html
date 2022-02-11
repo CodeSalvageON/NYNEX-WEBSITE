@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>NYNEX</title>
+    
+    <link href="https://codesalvageon.github.io/magichat/styles/hover.css" rel="stylesheet" type="text/css">
+    <link href="https://codesalvageon.github.io/magichat/styles/inhover.css" rel="stylesheet" type="text/css">
+    <link href="https://codesalvageon.github.io/magichat/styles/98.css" rel="stylesheet" type="text/css">
+    <link href="https://codesalvageon.github.io/magichat/styles/index.css" rel="stylesheet">
+
+    <link href="/static/css/imgmap.css" rel="stylesheet" type="text/css">
+    <link href="/static/imgs/globe.gif" rel="icon">
+  </head> 
+  <body>
+    <div id="background-stars"></div>
+    <div id="midground-stars"></div>
+    <div id="foreground-stars"></div>
+    <section id="main" class="hover">
+      <div class="window draggable" id="m-window">
+      <div class="title-bar" id="mtitle">
+        <div class="title-bar-text">
+          Nynex Servers
+        </div> 
+      </div>
+      <section id="inset">
+        <p id="logo-top"><img src="/static/imgs/nynex.png"><i id="gd-text"> Global Directory</i></p>
+        <p id="notice-top"><img src="/static/imgs/globe.gif"><i id="notice-text">Best viewed with table-friendly Netscape Navigator 2.01 or higher.</i><img src="/static/imgs/globe.gif" id="right-globe"></p>
+      </section>
+      <br/>
+      <!-- The Old Net Embed Code -->
+      <p><a href="http://www.theoldnet.com/#frombadge" title="Are you tired of this new Internet yet? Time to Get TheOldNet!">
+      <img src="//theoldnet.com/images/theoldnetanimblur2.gif" width="88" height="31" border=0></a></p>
+      <!-- End The Old Net Embed Code -->
+      <section class="link"></section>
+      <br/>
+      <section class="link" id="ocean-lounge"> 
+        <img src="/static/imgs/skybanner.PNG" width="500">
+        <a href="https://oceanlounge.vercel.app/" target="_blank"><p id="ocean-lounge-text" class="anchor">Ocean Lounge Classifieds</p></a>
+      </section>
+      <section class="link">
+        <p>A 90s themed digital Classifieds section, complete with funky colors!</p>
+      </section>
+      <section class="link" id="scrawl-wall">
+        <img src="/static/imgs/purplebanner.PNG" width="500" height="115">
+        <a href="https://scrawl-wall.codesalvageon.repl.co/" target="_blank"><p id="scrawl-wall-text">Scrawl Wall</p></a>
+      </section>
+      <section class="link">
+        <p>An encryptor that pays homage to the 1996 Scrawl Wall website.</p>
+      </section>
+      <section class="link" id="split">
+        <img src="/static/imgs/houses2banner.PNG" width="500" height="115">
+        <a href="https://2010.vercel.app/" target="_blank"><p id="split-text">The Split-Level House</p></a>
+      </section>
+      <section class="link">
+        <p>An over-engineered nostalgia trip to the early-mid 2010s.</p> 
+      </section>
+      <section class="link" id="email-town">
+        <img src="/static/imgs/housesbanner.PNG" width="500" height="115">
+        <a href="https://etown.vercel.app/" target="_blank"><p id="email-town-text">Email Town (Doesn't work anymore)</p></a>
+      </section>
+      <section class="link">
+        <p>It used to be an automatic mailer that created digital "towns".</p> 
+      </section>
+      <br/>
+      <section class="link"></section>
+      <br/>
+      <section class="link" id="mud">
+        <img src="/static/imgs/nightbanner.PNG" width="500" height="115">
+        <a href="https://github.com/CodeSalvageON/Online-Multiplayer-Text-Adventure-Template" target="_blank"><p id="mud-text" class="night">80s Multi User Dungeon</p></a>
+      </section>
+      <section class="link">
+        <p>An 80s themed Multi User Dungeon that connects to a PHP server.</p>
+      </section>
+      <section class="link" id="mud2"> 
+        <img src="/static/imgs/lightsoutbanner.PNG" width="500" height="115">
+        <a href="https://people-go-missing-here.codesalvageon.repl.co/" target="_blank"><p id="mud2-text" class="night">Web-based Multi User Dungeon</p></a>
+      </section>
+      <section class="link">
+        <p>A Multi User Dungeon on the web. Takes place in an infinite pharmacy.</p>
+      </section>
+      </div>
+      <div class="window draggable" id="music"> 
+        <div class="title-bar">
+          <div class="title-bar-text">
+            Dance The Misery - Corvette, and other Stuff 
+          </div> 
+          <div class="title-bar-controls">
+            <button aria-label="Close"></button> 
+          </div>
+        </div>
+        <img src="/static/imgs/car.png" width="290">
+        <hr/>
+        <audio src="/static/misery.mp3" controls id="misery"></audio>
+        <p><strong id="online"></strong></p>
+        <p>Toggle Hover</p> <button id="togglehover">Toggle</button>
+        <br/>
+        <p>Toggle Draggable</p>
+        <button id="toggledrag">Toggle</button>
+        <br/>
+        <img src="/static/imgs/countdown.gif">
+        <hr/>
+        <img src="/static/imgs/virtualmall.PNG" width="150" height="50" class="active-btn" id="virtual-mall">
+      </div>
+    </section>
+    
+    <script src="https://codesalvageon.github.io/magichat/scripts/jquery.js"></script>
+    <script src="https://codesalvageon.github.io/magichat/scripts/jqueryui.js"></script>
+    <script src="https://codesalvageon.github.io/magichat/scripts/touchpunch.js"></script>
+    <script src="https://codesalvageon.github.io/magichat/scripts/drag.js"></script>
+    <script src="/static/socketio.js"></script>
+    <script src="/static/imgmap.js"></script>
+  </body>
+</html>

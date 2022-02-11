@@ -1,0 +1,22 @@
+p {
+  width: 500px;
+}
+
+#dos {
+  width: 700px;
+  height: 500px;
+  color: red;
+  overflow-y: auto;
+  background-color: black;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.display {
+  width: 500px;
+  height: 500px;
+}
+
+.title-bar {
+  width: 683px;
+  position: fixed;
+}

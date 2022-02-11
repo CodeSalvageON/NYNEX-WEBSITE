@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  background-color: lightgray;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+audio {
+  width: 290px;
+  border-style: outset;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#main {
+  top: 15px;
+  left: 15px;
+  width: 95vw;
+  z-index: 300;
+  position: relative;
+}
+
+#logotop {
+  width: 500px;
+  height: 300px;
+  position: relative;
+}
+
+#notice-top {
+  width: 400px;
+  height: 300px;
+  position: relative;
+}
+
+#inset {
+  width: 500px;
+  height: 150px;
+  border-style: outset;
+  background-color: white;
+}
+
+#gd-text {
+  top: 25px;
+  font-size: 25px;
+  position: absolute;
+}
+
+#notice-text {
+  top: 5px;
+  position: absolute;
+}
+
+#right-globe {
+  right: 0px;
+  position: absolute;
+}
+
+#ocean-lounge, #email-town, #mud, #mud2, #scrawl-wall, #bb, #split {
+  height: 118px;
+  position: relative;
+}
+
+#m-window {
+  width: 550px;
+  height: 600px;
+  overflow-y: auto;
+}
+
+.link {
+  width: 500px;
+  border-style: outset;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#mtitle {
+  z-index: 300px;
+  width: 530px;
+  position: fixed;
+}
+
+#ocean-lounge-text, #email-town-text, #mud-text, #mud2-text, #scrawl-wall-text, #bb-text, #split-text {
+  top: 15px;
+  font-size: 23px;
+  position: absolute;
+}
+
+#music {
+  top: 0px;
+  left: 600px;
+  position: absolute;
+}
+
+.center-absolute {
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.night {
+  color: white;
+}
+
+.window {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.add-scroll {
+  overflow-y: auto;
+}
+
+.active-btn {
+  width: 150px;
+  height: 50px;
+  color: transparent;
+  border-style: outset;
+}
+
+.active-btn:hover {
+  padding: 2px;
+}
