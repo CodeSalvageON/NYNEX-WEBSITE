@@ -53,7 +53,7 @@ audio {
   position: absolute;
 }
 
-#ocean-lounge, #email-town, #mud, #mud2, #scrawl-wall, #bb, #split {
+#ocean-lounge, #email-town, #mud, #mud2, #scrawl-wall, #bb, #split, #omex-tv {
   height: 118px;
   position: relative;
 }
@@ -62,6 +62,7 @@ audio {
   width: 550px;
   height: 600px;
   overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .link {
@@ -76,7 +77,7 @@ audio {
   position: fixed;
 }
 
-#ocean-lounge-text, #email-town-text, #mud-text, #mud2-text, #scrawl-wall-text, #bb-text, #split-text {
+#ocean-lounge-text, #email-town-text, #mud-text, #mud2-text, #scrawl-wall-text, #bb-text, #split-text, #omex-text {
   top: 15px;
   font-size: 23px;
   position: absolute;
@@ -86,6 +87,10 @@ audio {
   top: 0px;
   left: 600px;
   position: absolute;
+}
+
+#omex-text {
+  color: white;
 }
 
 .center-absolute {
